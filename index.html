@@ -23,5 +23,18 @@
 				<article class="swiper-slide">5</article>
 			</section>
 		</main>
+
+		<script>
+			// 스와이퍼 연결법
+			const swiper = new Swiper("main", {
+				speed: 500, //스와이프 시 패널이 넘어가는 속도
+				loop: true,
+				direction: "horizontal",
+				grabCursor: true,
+				slidesPerView: "auto",
+				spaceBetween: 30,
+				centeredSlides: true,
+			});
+		</script>
 	</body>
 </html>
